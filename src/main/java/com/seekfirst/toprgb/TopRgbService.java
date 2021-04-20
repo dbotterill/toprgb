@@ -250,7 +250,7 @@ public class TopRgbService {
         config.setChunkSize(chunkSize);
       }
     } else {
-      config.setThreads(DEFAULT_THREADS);
+      config.setChunkSize(DEFAULT_CHUNKSIZE);
     }
 
     if (commandLine.hasOption("o")) {
